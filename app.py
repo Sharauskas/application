@@ -26,7 +26,7 @@ client_sm = boto3.client('secretsmanager',
 message = "Hello world!"
 file = "logs.txt"
 bucket = "cg-testas-prod"
-secretmanager_id = 'cg_testas_secret_prod'
+secretmanager_id = 'cg-testas-secret-prod'
 
 
 class NewPostForm(FlaskForm):
